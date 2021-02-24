@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body {
+    background-image: linear-gradient(225deg, #0099fc 0, #0096ff 5%, #0092ff 10%, #008dff 15%, #0088ff 20%, #0082ff 25%, #3c7aff 30%, #6f72fb 35%, #9069f1 40%, #a95fe6 45%, #be55d8 50%, #cf4ac9 55%, #dd3fb9 60%, #e735a8 65%, #ef2c97 70%, #f42785 75%, #f72774 80%, #f72c62 85%, #f53451 90%, #f03e41 95%, #ea4830 100%);
+    background-attachment: fixed;
+}
+
+main {
+    width: 100vw;
+    height: 92vh;
+}
+
+.container {
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #fcdc00;
+    box-shadow: 2px 2px 2px #EC008C;
+    color: #008080;
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.card-img-top {
+    background: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+    border: 2px solid #fff;
+}
+
+.card-title, .java {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.java {
+    font-size: 25px;
+}
+
+.p-footer {
+    color:white;
+    text-align-last: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.text-footer {
+    text-shadow: 1px 1px 1px #30002c;
+}
+
