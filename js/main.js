@@ -23,7 +23,7 @@ if (cumpleanios == "si" || cumpleanios == "Si" || cumpleanios == "SI" || cumplea
 alert ("Bienvenido "+ nombreCompleto + ", el día de hoy estamos relizando un sorteo en el que obtendras un fabuloso premio, debes elegir un numero entre 1 y 100, tendras tres oportunidades para acertar, SUERTE!");
 
 for (sorteo=1; sorteo<=3; sorteo++) {
-    let numero = parseInt(prompt ("Ingresa tu numero, SUERTE!:"));
+    let numero = parseInt(prompt (sorteo + ". Ingresa tu numero, SUERTE!:"));
     if (numero == edadPrompt) {
         alert("Felicitaciones eres el afortunado ganador de nuestro premio");
         break;
