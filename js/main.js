@@ -34,7 +34,7 @@ const redondo = resultado.toFixed(2);
 if (resultado < 18.5) {
     alert ("Hola " + upperNombre + " tu IMC= " + redondo + " y es demasiado bajo, consulta a tu nutricionista");
     } else if (resultado >= 18.5 && resultado < 25) {
-        alert ("Hola " + upperNombre + " tu IMC= " + redondo + "y es normal, manten una dieta saludable.");
+        alert ("Hola " + upperNombre + " tu IMC= " + redondo + " y es normal, manten una dieta saludable.");
     } else if (resultado >= 25 && resultado < 30) {
         alert ("Hola " + upperNombre + " tu IMC= " + redondo + " y tienes sobrepeso , consulte a tu nutricionista.");    
     }  else if (resultado >= 30) {
