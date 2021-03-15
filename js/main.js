@@ -19,7 +19,6 @@ do {
     pacientes.push (new Paciente (nombre, pesoEnKg, altura));
 }while (pacientes.length != cantidad)
 
-
 //Imprimiendo en consola  elementos de los arrays
 console.log (pacientes[0]);
 console.log (pacientes[1]);
@@ -29,7 +28,6 @@ console.log (pacientes[0].pesoEnKg);
 console.log (pacientes[1].pesoEnKg);
 console.log (pacientes[0].altura);
 console.log (pacientes[1].altura);
-
 
 //Funcion
 function imc (kg,m){
