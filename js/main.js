@@ -4,6 +4,7 @@ const pesos = [];
 const alturas = [];
 let cantidad = 2; 
 
+//Declarando clase
 class Paciente {
     constructor(nombre, pesoEnKg, altura) {
         this.nombre = nombre;
@@ -12,6 +13,7 @@ class Paciente {
     }
 }
 
+//Iteracion
 do {
     let nombre = prompt("Ingresa tu Nombre?");
     if (nombre == ""){
@@ -25,6 +27,7 @@ do {
 
 }while (nombres.length != cantidad)
 
+//Imprimiendo en consola  elementos de los arrays
 console.log (nombres[0]);
 console.log (nombres[1]);
 console.log (pesos[0]);
@@ -43,6 +46,7 @@ const resultado2 = imc(pesos[1] , alturas[1]);
 const redondo1 = resultado1.toFixed(2);
 const redondo2 = resultado2.toFixed(2);
 
+//Condicionales
 if (resultado1 < 18.5) {
     alert ("Hola " + nombres[0].toUpperCase() + " tu IMC= " + redondo1 + " y es demasiado bajo, consulta a tu nutricionista");
     } else if (resultado1 >= 18.5 && resultado1 < 25) {
